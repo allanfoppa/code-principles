@@ -29,6 +29,15 @@ For development with auto-reload:
 pnpm dev <path-to-file.ts>
 ```
 
+Running OOP examples:
+```bash
+pnpm run oop:abstraction
+pnpm run oop:encapsulation
+pnpm run oop:inheritance
+pnpm run oop:polymorphism:notifiable
+pnpm run oop:polymorphism:payment-method
+```
+
 ## Building
 
 Compile all TypeScript files:

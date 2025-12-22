@@ -6,7 +6,12 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node",
-    "dev": "ts-node-dev --respawn"
+    "dev": "ts-node-dev --respawn",
+    "oop:abstraction": "ts-node-dev src/OOP/abstraction/database-connection.ts",
+    "oop:encapsulation": "ts-node-dev src/OOP/encapsulation/bank-account.ts",
+    "oop:inheritance": "ts-node-dev src/OOP/inheritance/inheritance.ts",
+    "oop:polymorphism:notifiable": "ts-node-dev src/OOP/polymorphism/notifiable.ts",
+    "oop:polymorphism:payment-method": "ts-node-dev src/OOP/polymorphism/payment-method.ts"
   },
   "keywords": [
     "OOP",
