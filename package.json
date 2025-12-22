@@ -1,0 +1,25 @@
+{
+  "name": "code-principles",
+  "version": "1.0.0",
+  "description": "Code principles examples: OOP, CLEAN_CODE, and SOLID",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node",
+    "dev": "ts-node-dev --respawn"
+  },
+  "keywords": [
+    "OOP",
+    "SOLID",
+    "Clean Code"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a"
+}
