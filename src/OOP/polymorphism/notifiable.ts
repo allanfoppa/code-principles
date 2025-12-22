@@ -47,7 +47,7 @@ class NotificationService {
   }
 
   public notifyAll(message: string): void {
-    this.notifiers.forEach(notifier => {
+    this.notifiers.forEach((notifier) => {
       notifier.send(message); // Polymorphic call
     });
   }

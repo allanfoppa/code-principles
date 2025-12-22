@@ -1,6 +1,7 @@
 # Code Principles
 
 Examples and demonstrations of programming principles:
+
 - **OOP**: Object-Oriented Programming concepts
 - **SOLID**: SOLID principles
 - **CLEAN_CODE**: Clean code practices
@@ -8,28 +9,59 @@ Examples and demonstrations of programming principles:
 ## Setup
 
 Install dependencies:
+
 ```bash
 pnpm install
+```
+
+## Code Quality
+
+Check code with ESLint:
+
+```bash
+pnpm run lint
+```
+
+Auto-fix ESLint issues:
+
+```bash
+pnpm run lint:fix
+```
+
+Format code with Prettier:
+
+```bash
+pnpm run format
+```
+
+Check formatting:
+
+```bash
+pnpm run format:check
 ```
 
 ## Running Examples
 
 Run any TypeScript file:
+
 ```bash
 pnpm start <path-to-file.ts>
 ```
 
 Example:
+
 ```bash
 pnpm start src/OOP/inheritance.ts
 ```
 
 For development with auto-reload:
+
 ```bash
 pnpm dev <path-to-file.ts>
 ```
 
 Running OOP examples:
+
 ```bash
 # Core OOP Pillars
 pnpm run oop:abstraction
@@ -48,6 +80,7 @@ pnpm run oop:getters-setters
 ## Building
 
 Compile all TypeScript files:
+
 ```bash
 pnpm build
 ```

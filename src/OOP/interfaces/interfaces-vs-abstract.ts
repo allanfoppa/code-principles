@@ -73,7 +73,10 @@ abstract class Shape {
 }
 
 class Circle extends Shape {
-  constructor(color: string, private radius: number) {
+  constructor(
+    color: string,
+    private radius: number
+  ) {
     super(color);
   }
 
@@ -156,7 +159,11 @@ abstract class GraphicElement {
 class Button extends GraphicElement implements Drawable, Resizable {
   private scale: number = 1;
 
-  constructor(x: number, y: number, private label: string) {
+  constructor(
+    x: number,
+    y: number,
+    private label: string
+  ) {
     super(x, y);
   }
 
@@ -165,7 +172,9 @@ class Button extends GraphicElement implements Drawable, Resizable {
   }
 
   public draw(): void {
-    console.log(`🎨 Drawing ${this.label} button at (${this.x}, ${this.y}) - Scale: ${this.scale}x`);
+    console.log(
+      `🎨 Drawing ${this.label} button at (${this.x}, ${this.y}) - Scale: ${this.scale}x`
+    );
   }
 
   public resize(scale: number): void {

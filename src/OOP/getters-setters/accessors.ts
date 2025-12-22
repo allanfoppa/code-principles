@@ -59,11 +59,11 @@ class Student {
 
 const student = new Student();
 student.name = "John Doe";
-student.name = "X";           // Too short
+student.name = "X"; // Too short
 student.grade = 85;
-student.grade = 150;          // Out of range
+student.grade = 150; // Out of range
 student.email = "john@school.com";
-student.email = "invalid";    // Invalid format
+student.email = "invalid"; // Invalid format
 
 console.log(`\nStudent: ${student.name}, Grade: ${student.grade}, Email: ${student.email}`);
 
@@ -236,7 +236,7 @@ class Report {
   public get median(): number {
     const sorted = this.sortedData;
     if (sorted.length === 0) return 0;
-    
+
     const middle = Math.floor(sorted.length / 2);
     if (sorted.length % 2 === 0) {
       return (sorted[middle - 1] + sorted[middle]) / 2;
@@ -278,11 +278,11 @@ class Thermometer {
   }
 
   public get fahrenheit(): number {
-    return (this._celsius * 9/5) + 32;
+    return (this._celsius * 9) / 5 + 32;
   }
 
   public set fahrenheit(value: number) {
-    this.celsius = (value - 32) * 5/9;
+    this.celsius = ((value - 32) * 5) / 9;
     console.log(`Set to ${value}°F = ${this._celsius.toFixed(1)}°C`);
   }
 

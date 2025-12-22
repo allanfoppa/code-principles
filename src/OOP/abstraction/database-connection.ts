@@ -18,9 +18,7 @@ abstract class DatabaseConnection {
 
   // Concrete method - shared by all subclasses
   public getConnectionStatus(): string {
-    return this.isConnected
-      ? `Connected to ${this.host}:${this.port}`
-      : `Disconnected`;
+    return this.isConnected ? `Connected to ${this.host}:${this.port}` : `Disconnected`;
   }
 }
 

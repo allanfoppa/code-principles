@@ -74,12 +74,12 @@ const paypal = new PayPalPayment(50, "user@example.com");
 const cryptoPayment = new CryptoPayment(200, "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb");
 
 executePayment(creditCard); // Credit card behavior
-executePayment(paypal);     // PayPal behavior
+executePayment(paypal); // PayPal behavior
 executePayment(cryptoPayment); // Crypto behavior
 
 // Can store different types in same array!
 const payments: PaymentMethod[] = [creditCard, paypal, cryptoPayment];
-payments.forEach(payment => executePayment(payment));
+payments.forEach((payment) => executePayment(payment));
 
 // NOTES:
 // - There are different ways to achieve polymorphism in TypeScript, including interfaces and method overriding.

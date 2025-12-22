@@ -35,7 +35,7 @@ class Child extends Parent {
 }
 
 // Example usage
-const greeting = new Child("Allan", 39, 'male');
+const greeting = new Child("Allan", 39, "male");
 greeting.introduce();
 
 // const parent = new Parent("Some name", 48, 'female');

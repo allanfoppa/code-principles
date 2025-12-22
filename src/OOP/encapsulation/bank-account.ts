@@ -129,7 +129,7 @@ myAccount.deposit(100, "5678");
 
 console.log("\n--- Transaction history ---");
 const history = myAccount.getTransactionHistory("5678");
-history?.forEach(transaction => console.log(transaction));
+history?.forEach((transaction) => console.log(transaction));
 
 // These would cause TypeScript errors:
 // console.log(myAccount.balance);// Error: Property 'balance' is private

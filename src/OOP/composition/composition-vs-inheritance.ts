@@ -134,16 +134,8 @@ class Computer {
   }
 }
 
-const myComputer = new Computer(
-  new Processor(8),
-  new Memory(16),
-  new Storage(512)
-);
+const myComputer = new Computer(new Processor(8), new Memory(16), new Storage(512));
 myComputer.run("Photoshop");
 
-const gamingPC = new Computer(
-  new Processor(16),
-  new Memory(32),
-  new Storage(2000)
-);
+const gamingPC = new Computer(new Processor(16), new Memory(32), new Storage(2000));
 gamingPC.run("Cyberpunk 2077");
