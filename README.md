@@ -2,8 +2,8 @@
 
 Examples and demonstrations of programming principles:
 - **OOP**: Object-Oriented Programming concepts
-- **CLEAN_CODE**: Clean code practices
 - **SOLID**: SOLID principles
+- **CLEAN_CODE**: Clean code practices
 
 ## Setup
 
