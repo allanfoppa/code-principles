@@ -11,7 +11,11 @@
     "oop:encapsulation": "ts-node-dev src/OOP/encapsulation/bank-account.ts",
     "oop:inheritance": "ts-node-dev src/OOP/inheritance/inheritance.ts",
     "oop:polymorphism:notifiable": "ts-node-dev src/OOP/polymorphism/notifiable.ts",
-    "oop:polymorphism:payment-method": "ts-node-dev src/OOP/polymorphism/payment-method.ts"
+    "oop:polymorphism:payment-method": "ts-node-dev src/OOP/polymorphism/payment-method.ts",
+    "oop:composition": "ts-node-dev src/OOP/composition/composition-vs-inheritance.ts",
+    "oop:interfaces": "ts-node-dev src/OOP/interfaces/interfaces-vs-abstract.ts",
+    "oop:static": "ts-node-dev src/OOP/static/static-members.ts",
+    "oop:getters-setters": "ts-node-dev src/OOP/getters-setters/accessors.ts"
   },
   "keywords": [
     "OOP",

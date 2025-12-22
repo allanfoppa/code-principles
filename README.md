@@ -31,11 +31,18 @@ pnpm dev <path-to-file.ts>
 
 Running OOP examples:
 ```bash
+# Core OOP Pillars
 pnpm run oop:abstraction
 pnpm run oop:encapsulation
 pnpm run oop:inheritance
 pnpm run oop:polymorphism:notifiable
 pnpm run oop:polymorphism:payment-method
+
+# Additional OOP Concepts
+pnpm run oop:composition
+pnpm run oop:interfaces
+pnpm run oop:static
+pnpm run oop:getters-setters
 ```
 
 ## Building
