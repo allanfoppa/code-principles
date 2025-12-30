@@ -20,7 +20,10 @@
     "oop:composition": "tsx src/OOP/composition/composition-vs-inheritance.ts",
     "oop:interfaces": "tsx src/OOP/interfaces/interfaces-vs-abstract.ts",
     "oop:static": "tsx src/OOP/static/static-members.ts",
-    "oop:getters-setters": "tsx src/OOP/getters-setters/accessors.ts"
+    "oop:getters-setters": "tsx src/OOP/getters-setters/accessors.ts",
+    "solid:srp": "npm run solid:srp:bad && echo '\n---\n' && npm run solid:srp:good",
+    "solid:srp:bad": "tsx src/SOLID/S/example/bad-example.ts",
+    "solid:srp:good": "tsx src/SOLID/S/example/good-example.ts"
   },
   "keywords": [
     "OOP",

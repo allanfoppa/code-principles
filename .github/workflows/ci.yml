@@ -49,3 +49,4 @@ jobs:
           pnpm run oop:interfaces
           pnpm run oop:static
           pnpm run oop:getters-setters
+          pnpm run solid:srp
