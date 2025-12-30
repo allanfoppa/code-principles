@@ -53,3 +53,4 @@ jobs:
           pnpm run solid:ocp
           pnpm run solid:lsp
           pnpm run solid:isp
+          pnpm run solid:dip
