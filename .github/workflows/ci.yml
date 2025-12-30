@@ -50,3 +50,4 @@ jobs:
           pnpm run oop:static
           pnpm run oop:getters-setters
           pnpm run solid:srp
+          pnpm run solid:ocp
