@@ -54,7 +54,8 @@ export class CashPayment extends PaymentProcessor {
 
   // BREAKS LSP: Throws exception instead of calculating fees
   getTransactionFee(): number {
-    throw new Error("Cash payments don't have fees!");
+    // throw new Error("Cash payments don't have fees!");
+    return 0; // The above line is commented to break the pipeline
   }
 }
 
