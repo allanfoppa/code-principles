@@ -26,7 +26,10 @@
     "solid:srp:good": "tsx src/SOLID/S/example/good-example.ts",
     "solid:ocp": "npm run solid:ocp:bad && echo '\n---\n' && npm run solid:ocp:good",
     "solid:ocp:bad": "tsx src/SOLID/O/example/bad-example.ts",
-    "solid:ocp:good": "tsx src/SOLID/O/example/good-example.ts"
+    "solid:ocp:good": "tsx src/SOLID/O/example/good-example.ts",
+    "solid:lsp": "npm run solid:lsp:bad && echo '\n---\n' && npm run solid:lsp:good",
+    "solid:lsp:bad": "tsx src/SOLID/L/example/bad-example.ts",
+    "solid:lsp:good": "tsx src/SOLID/L/example/good-example.ts"
   },
   "keywords": [
     "OOP",

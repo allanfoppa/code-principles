@@ -51,3 +51,4 @@ jobs:
           pnpm run oop:getters-setters
           pnpm run solid:srp
           pnpm run solid:ocp
+          pnpm run solid:lsp
