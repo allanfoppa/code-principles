@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // ❌ BAD EXAMPLE: Large class with multiple responsibilities
 
 export class EmployeeManager {

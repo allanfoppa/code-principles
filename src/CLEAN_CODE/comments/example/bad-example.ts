@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 // ❌ BAD EXAMPLE: Poor commenting practices
 
 export class UserManager {

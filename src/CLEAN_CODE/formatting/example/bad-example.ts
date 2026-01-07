@@ -13,8 +13,7 @@ interface Task {
   dueDate?: Date;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-class TaskManager extends EventEmitter {
+export class TaskManager extends EventEmitter {
   private tasks: Task[] = [];
   private nextId: number = 1;
 

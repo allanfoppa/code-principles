@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // ✅ GOOD EXAMPLE: Small, focused classes with single responsibilities
 
 // Domain entities

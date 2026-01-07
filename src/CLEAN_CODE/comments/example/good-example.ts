@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // ✅ GOOD EXAMPLE: Minimal, meaningful comments
 
 interface User {

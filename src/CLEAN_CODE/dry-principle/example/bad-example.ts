@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 // ❌ BAD EXAMPLE: Lots of code duplication and magic numbers
 
 export class UserService {

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // ✅ GOOD EXAMPLE: Clean error handling with meaningful exceptions
 
 // Custom exception classes that provide context

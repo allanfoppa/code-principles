@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 // ✅ GOOD EXAMPLE: DRY principle applied with proper abstraction
 
 // Constants to eliminate magic numbers and strings
