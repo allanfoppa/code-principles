@@ -3,15 +3,15 @@
 class d {
   // What does 'd' mean?
 
-  private t: number; // Time? Temperature? Total?
+  // private t: number; // Time? Temperature? Total?
   private data1: string[]; // What kind of data?
 
-  private data2: string[]; // How is this different from data1?
+  // private data2: string[]; // How is this different from data1?
 
   constructor() {
-    this.t = 0;
+    // this.t = 0;
     this.data1 = [];
-    this.data2 = [];
+    // this.data2 = [];
   }
 
   // What does this method do?
@@ -36,9 +36,9 @@ class d {
   // What does flag mean? When should it be true?
   process(flag: boolean): void {
     if (flag) {
-      this.data2 = this.data1.filter((item) => item.length > 3);
+      // this.data2 = this.data1.filter((item) => item.length > 3);
     } else {
-      this.data2 = [...this.data1];
+      // this.data2 = [...this.data1];
     }
   }
 }
