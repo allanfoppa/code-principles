@@ -54,3 +54,10 @@ jobs:
           pnpm run solid:lsp
           pnpm run solid:isp
           pnpm run solid:dip
+          pnpm run clean-code:classes
+          pnpm run clean-code:comments
+          pnpm run clean-code:dry-principle
+          pnpm run clean-code:error-handling
+          pnpm run clean-code:formatting
+          pnpm run clean-code:functions
+          pnpm run clean-code:meaningful-names
