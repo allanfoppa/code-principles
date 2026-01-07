@@ -2,8 +2,10 @@
 
 class d {
   // What does 'd' mean?
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   private t: number; // Time? Temperature? Total?
   private data1: string[]; // What kind of data?
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   private data2: string[]; // How is this different from data1?
 
   constructor() {
