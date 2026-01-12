@@ -61,3 +61,12 @@ jobs:
           pnpm run clean-code:formatting
           pnpm run clean-code:functions
           pnpm run clean-code:meaningful-names
+          pnpm run calisthenics:one-level-indentation
+          pnpm run calisthenics:no-else
+          pnpm run calisthenics:wrap-primitives
+          pnpm run calisthenics:first-class-collections
+          pnpm run calisthenics:one-dot-per-line
+          pnpm run calisthenics:no-abbreviations
+          pnpm run calisthenics:small-entities
+          pnpm run calisthenics:two-instance-variables
+          pnpm run calisthenics:no-getters-setters
