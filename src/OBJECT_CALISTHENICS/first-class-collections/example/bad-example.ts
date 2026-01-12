@@ -9,14 +9,16 @@ interface Product {
 
 export class BadShoppingCart {
   private items: Product[] = [];
-  private userId: string;
-  private createdAt: Date;
+  private _createdAt: Date;
   private discountPercentage: number = 0;
 
   constructor(userId: string) {
-    this.userId = userId;
-    this.createdAt = new Date();
+    this._createdAt = new Date();
     console.log("BAD: Shopping cart with mixed responsibilities...\n");
+  }
+
+  get createdAt(): Date {
+    return this._createdAt;
   }
 
   addItem(product: Product): void {

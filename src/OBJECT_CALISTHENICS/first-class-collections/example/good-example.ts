@@ -78,13 +78,11 @@ class DiscountRate {
 export class GoodShoppingCart {
   private readonly products: ProductCollection;
   private readonly userId: string;
-  private readonly createdAt: Date;
   private discount: DiscountRate;
 
   constructor(userId: string) {
     this.products = new ProductCollection();
     this.userId = userId;
-    this.createdAt = new Date();
     this.discount = new DiscountRate(0);
     console.log("GOOD: Shopping cart with first class collections...\n");
   }
